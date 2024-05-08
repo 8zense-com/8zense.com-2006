@@ -77,7 +77,7 @@ const ContactUs: React.FC = () => {
       className="flex flex-col gap-4 justify-center"
       onSubmit={handleSubmit}
     >
-      <div className="flex flex-col gap-1">
+      <div className="bg-yellow-600/50 flex flex-col gap-1">
         <input
           autoComplete="off"
           className="w-full rounded-md text-slate-700 border-2 border-slate-300 px-2 py-1 outline-purple-500"
